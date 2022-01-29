@@ -111,7 +111,9 @@ class PathFinderPage extends ConsumerWidget {
             SizedBox(
               width: double.infinity,
               child: Button(
-                onPressed: ref.read(pathFinderProvider).startFindingPath,
+                onPressed: bloc.startNode != null && bloc.finishNode != null
+                    ? ref.read(pathFinderProvider).startFindingPath
+                    : null,
                 text: "Start Finding Path",
               ),
             ),
