@@ -1,6 +1,8 @@
 # pathfinder_visualization_flutter
 
-A new Flutter project.
+This project is a flutter version of a tutorial for [Clement Mihailescu](https://github.com/clementmihailescu)'s [Pathfinding Visualizer Tutorial](https://github.com/clementmihailescu/Pathfinding-Visualizer-Tutorial) project.
+
+Everything related to the tutorial is located under `/src/PathfindingVisualizer` and `/src/algorithms`.
 
 ## Getting Started
 
